@@ -1,3 +1,6 @@
+
+//per examples in class, dyamic content instead of 12 cards
+
 import React from "react";
 
 const Card = props => {

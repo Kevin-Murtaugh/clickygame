@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Card from "./card";
 
-// Write a function that takes an array of objects and shffules it
+// Write a function that takes an array of objects and shuffles the items
 
 const getRandomNumber = upper => Math.floor(Math.random() * upper);
 
