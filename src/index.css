@@ -3,3 +3,49 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.col-sm-4,
+.col-xs-12,
+.col-xs-3 {
+  border: 15px solid #fff;
+}
+
+.row {
+  overflow: hidden;
+}
+
+[class*="col-"] {
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+img {
+  border: 5px ridge #eaeaea;
+  /* ADD SHADOW FOR IMAGES */
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+.navbar {
+  min-height: 70px;
+  font-size: 1.5em;
+  border-radius: 0;
+  /* ADD SHADOW FOR NAVBAR */
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+}
+
+h3 {
+  margin-top: 0;
+  color: #eaeaea;
+}
+
+ul {
+  padding-left: 0;
+}
