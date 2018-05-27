@@ -1,7 +1,8 @@
 // Image paths needs to be in relation to index.html file
 const imagePaths = {
   beth: "../assets/beth.png",
-  birdperson: "../assets/birdperson.png",
+//  birdperson: "../assets/birdperson.png",
+  pelicanrugby: "../assets/pelicanrugby.png",
   evilmorty: "../assets/evilmorty.png",
   gianthead: "../assets/gianthead.png",
   goldenford: "../assets/goldenford.png",
