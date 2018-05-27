@@ -1,9 +1,9 @@
 import React from "react";
 const imageStyle = {
-  width: "130px",
-  height: "130px",
-  maxWidth: "130px",
-  maxHeight: "130px",
+  width: "180px",
+  height: "180px",
+  maxWidth: "180px",
+  maxHeight: "180px",
   display: "block",
   margin: "0 auto"
 };
