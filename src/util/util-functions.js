@@ -1,7 +1,7 @@
 const getRandomNumber = upper => Math.floor(Math.random() * upper);
 
 const shuffleArray = array => {
-  array = array.slice(0); // Make a deep copy of original array to avoid mutating
+  array = array.slice(0); // Make a deep copy of original array to avoid mangling
   let shuffledArray = [];
   let length = array.length;
   while (shuffledArray.length !== length) {

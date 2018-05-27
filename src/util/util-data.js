@@ -11,7 +11,8 @@ const imagePaths = {
   morty: "../assets/morty.png",
   mr: "../assets/mr.png",
   rick: "../assets/rick.png",
-  summer: "../assets/summer.png"
+//  summer: "../assets/summer.png",
+  redwings: "../assets/redwings4.png"
 };
 
 const initialCharacters = Object.keys(imagePaths).map(key => ({
