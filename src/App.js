@@ -47,6 +47,16 @@ class App extends Component {
           alertClass: "success"
         },
         () => {
+          if (topScore === 12){
+            this.setState(
+              {
+                score: 0,
+                topScore: 12,
+                characters: deepClone(initialCharacters),
+                navText: "Congratulations!, You Won The Game!!",
+                alertClass: "danger"
+              })
+          }
           this.shuffle();
         }
       );
